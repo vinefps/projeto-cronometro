@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cabecalho h1{
+    color: white;   
+    padding: 10px;
+}
+.contador{
+    margin-top: 30px;
+    
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    padding: 20px;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    
+}
